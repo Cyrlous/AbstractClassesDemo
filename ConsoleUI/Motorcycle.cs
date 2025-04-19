@@ -11,6 +11,6 @@ public class Motorcycle : Vehicle
 
     public override void DriveVirtual()
     {
-        Console.WriteLine("The motorcycle blasts noisily around town.");
+        Console.WriteLine($"The motorcycle blasts noisily around town.");
     }
 }

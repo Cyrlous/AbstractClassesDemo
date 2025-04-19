@@ -49,6 +49,16 @@ namespace ConsoleUI
             vehicles.Add(carTwo);
             vehicles.Add(motorcycleOne);
             vehicles.Add(motorcycleTwo);
+            
+            foreach (var vehicle in vehicles)
+            {
+                Console.WriteLine($"This {vehicle.Year} {vehicle.Make} {vehicle.Model} is currently for sale.");
+            }
+            
+            carOne.DriveAbstract();
+            carOne.DriveVirtual();
+            motorcycleOne.DriveAbstract();
+            motorcycleOne.DriveVirtual();
 
             #region Vehicles
 

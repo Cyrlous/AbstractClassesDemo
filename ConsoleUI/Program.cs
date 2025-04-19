@@ -17,14 +17,14 @@ namespace ConsoleUI
             
             var vehicles = new List<Vehicle>();
             
-            var carOne = new Car()
+            Car carOne = new Car()
             {
                 Year = "2020",
                 Make = "Honda",
                 Model = "Accord",
             };
 
-            var motorcycleOne = new Motorcycle()
+            Motorcycle motorcycleOne = new Motorcycle()
             {
                 Year = "2014",
                 Make = "Harley Davidson",

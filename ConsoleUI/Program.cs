@@ -14,6 +14,41 @@ namespace ConsoleUI
              * Todo: Follow all comments!! 
              * Double click on the region (gray box) to view all comments
              */
+            
+            var vehicles = new List<Vehicle>();
+            
+            var carOne = new Car()
+            {
+                Year = "2020",
+                Make = "Honda",
+                Model = "Accord",
+            };
+
+            var motorcycleOne = new Motorcycle()
+            {
+                Year = "2014",
+                Make = "Harley Davidson",
+                Model = "CVO Road King",
+            };
+
+            Vehicle carTwo = new Car()
+            {
+                Year = "2017",
+                Make = "Ford",
+                Model = "Focus",
+            };
+
+            Vehicle motorcycleTwo = new Motorcycle()
+            {
+                Year = "2018",
+                Make = "Yamaha",
+                Model = "YZF-R6",
+            };
+            
+            vehicles.Add(carOne);
+            vehicles.Add(carTwo);
+            vehicles.Add(motorcycleOne);
+            vehicles.Add(motorcycleTwo);
 
             #region Vehicles
 
